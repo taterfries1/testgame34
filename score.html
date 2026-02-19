@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="score-style.css">
+		<meta name="color-scheme" content="only light">
+	</head>
+	
+	<body>
+	
+		<div id="score-main-window">
+			<!--MESSAGE-->
+			<div id="score-message-container" class="width-1-1 height-1-1 flex flex-align-center flex-align-vcenter hidden">
+				<div id="score-message" class="text-align-center">Message.</div>
+			</div><!--MESSAGE CLOSE-->
+			
+			<!--LOCAL SCOREBOARD-->
+			<table class="width-1-1 hidden" id="local-score-table">
+				<colgroup>
+    				<col style="width:10%">
+    				<col style="width:40%">
+    				<col style="width:20%">
+					<col style="width:30%">
+  				</colgroup>
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Name</th>
+						<th class="text-align-right">Score</th>
+						<th class="text-align-right">Date</th>
+					</tr>
+				</thead>
+				<tbody id="table-body-high-score">
+					<tr id="high-score-row-1" class="table-row">
+						<td>1</td>
+						<td>Paolo Lazatin</td>										
+						<td class="text-align-right">67,864</td>
+						<td class="text-align-right">2022-07-29</td>
+					</tr>
+					<tr id="high-score-row-2" class="table-row">
+						<td>2</td>
+						<td>Paolo</td>										
+						<td class="text-align-right">37,421</td>
+						<td class="text-align-right">2022-07-29</td>
+					</tr>
+				</tbody>
+			</table><!-- LOCAL SCOREBOARD CLOSE-->
+			
+			<!--GLOBAL-LEADERBOARDS-->
+			<table class="width-1-1 hidden" id="global-leaderboards-table">
+				<colgroup>
+    				<col style="width:10%">
+    				<col style="width:40%">
+    				<col style="width:20%">
+					<col style="width:30%">
+  				</colgroup>
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Name</th>
+						<th class="text-align-right">Score</th>
+						<th class="text-align-right">Date</th>
+					</tr>
+				</thead>
+				<tbody id="table-body-global-leaderboards">
+					<tr id="global-leaderboards-row-1" class="table-row">
+						<td>1</td>
+						<td>Paolo</td>										
+						<td class="text-align-right">3,525,567,864</td>
+						<td class="text-align-right">2022-07-29</td>
+					</tr>
+					<tr id="global-leaderboards-row-2" class="table-row">
+						<td>2</td>
+						<td>Paolo</td>										
+						<td class="text-align-right">4,525,437,421</td>
+						<td class="text-align-right">2022-07-29</td>
+					</tr>									
+				</tbody>				
+			</table><!--#global-leaderboards-->
+			
+			<!--WINS-->
+			<table class="width-1-1 hidden" id="global-wins-table">
+				<colgroup>
+    				<col style="width:10%">
+    				<col style="width:40%">
+    				<col style="width:20%">
+					<col style="width:30%">
+  				</colgroup>
+				<thead>
+					<tr>
+						<th>#</th>
+						<th>Name</th>
+						<th class="text-align-right">Wins</th>
+						<th class="text-align-right">Date</th>
+					</tr>
+				</thead>
+				<tbody id="table-body-wins-leaderboards">
+					<tr id="global-wins-row-1" class="table-row">
+						<td>1</td>
+						<td>Paolo</td>										
+						<td class="text-align-right">5</td>
+						<td class="text-align-right">2022-07-29</td>
+					</tr>
+					<tr id="global-wins-row-2" class="table-row">
+						<td>2</td>
+						<td>Paolo</td>										
+						<td class="text-align-right">21</td>
+						<td class="text-align-right">2022-07-29</td>
+					</tr>									
+				</tbody>				
+			</table><!--#wins-->
+			
+		</div>
+		
+	</body>
+</html>
